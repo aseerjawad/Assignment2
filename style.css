@@ -123,6 +123,10 @@ p {
     margin: 7px 0;
 }
 
+.banner_left i {
+    margin-right: 8px;
+}
+
 
 
 button {
@@ -340,11 +344,10 @@ button {
 
 
 /* __________________________Career Section________________________ */
-.carrer_section {
+.career_section {
     max-width: 1920px;
     min-height: 500px;
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
     background-color: #F948B2;
 }
 
@@ -356,7 +359,7 @@ button {
     max-width: 1920px;
     min-height: 300px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 50px 240px;
     display: flex;
     flex-wrap: wrap;
@@ -384,7 +387,7 @@ button {
     margin-right: 11px;
 }
 
-/* _______________________Footer Section_______________________ */
+/* _______________________________________Footer Section__________________________________________ */
 
 .footer_container {
     max-width: 1920px;
@@ -438,9 +441,63 @@ button {
 
 }
 
-
+.social_sites i {
+    font-size: 25px;
+}
 
 .footer_container a {
     text-decoration: none;
     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------Hover_effect-------------------- */
+
+.img_container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the opacity and color as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px;
+}
+
+.overlay_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f50af5;
+
+    text-align: center;
+
+}
+
+.img_container:hover .overlay {
+    opacity: 1;
+}
+
+.img_container:hover .overlay-content {
+    display: block;
 }

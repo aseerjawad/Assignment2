@@ -77,7 +77,12 @@
     }
 
     .about_section_right>h2 {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .about_section_right>h3 {
+        font-size: 15px;
+        font-weight: 600;
     }
 
 
@@ -92,7 +97,7 @@
 
 
 
-
+    /* ______________________________________Online Game__________________________________ */
 
 
 

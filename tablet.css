@@ -6,6 +6,10 @@
 }
 
 
+
+/* _________________________________________________________Designed for tablet 980px of width_________________________________________________________ */
+
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav_container {
         padding: 0 100px;
