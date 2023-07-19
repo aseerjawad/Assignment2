@@ -371,6 +371,13 @@ button {
     margin: 0 16px;
 }
 
+.genre_section>section:hover {
+    border: 2px solid #FF42A5;
+    padding: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 .genre_section>section>img {
     height: 40px;
     width: 40px;
