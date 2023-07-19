@@ -107,7 +107,9 @@ p {
 .banner_left>h1 {
     /* text-transform: uppercase; */
     font-size: 70px;
-
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 .banner_left>ul {
@@ -121,10 +123,7 @@ p {
     margin: 7px 0;
 }
 
-.banner_left>h1 {
-    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    /* background-clip: text; */
-}
+
 
 button {
     padding: 10px 25px;
@@ -166,6 +165,9 @@ button {
 
 .about_section_right>h2 {
     font-size: 30px;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 .about_section_right>button {
@@ -191,6 +193,21 @@ button {
 .online_games_heading {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.online_games_heading>h2 {
+    font-size: 30px;
+}
+
+.online_games_heading>h2>span {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.online_games_heading>p {
+    margin: 20px 0px;
 }
 
 .online_games_sec {
@@ -283,6 +300,7 @@ button {
 
 .upper_left>h2 {
     text-align: right;
+    font-size: 30px;
 }
 
 
@@ -314,7 +332,7 @@ button {
 }
 
 .bottom_right>h2 {
-
+    font-size: 30px;
     text-align: left;
 }
 
@@ -359,11 +377,63 @@ button {
     margin-right: 11px;
 }
 
+/* _______________________Footer Section_______________________ */
+
 .footer_container {
     max-width: 1920px;
-    min-height: 500px;
+    min-height: 400px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
 
     /* border: 1px solid black */
     background: #0B0223;
+    color: white;
 
+}
+
+.footer_container>.logo_section {
+    margin: 80px 0 50px 0;
+}
+
+.important_links>ul {
+    margin-bottom: 30px;
+    /* background-color: #F948B2; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.footer_container li {
+    list-style: none;
+}
+
+.social_sites>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+
+.web_links>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.footer_container p {
+    font-size: 11px;
+
+}
+
+
+
+.footer_container a {
+    text-decoration: none;
+    color: white;
 }

@@ -239,6 +239,63 @@
         width: 150px;
     }
 
+    /* _________________Genre Sec________________ */
+
+    .genre_section {
+        padding: 40px 0px;
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* __________________footer____________________ */
+    .footer_container>.logo_section {
+        margin: 0px;
+    }
+
+    .important_links>ul {
+
+        gap: 15px;
+        /* background-color: rgb(12, 136, 244); */
+        padding: 0px 125px;
+        justify-content: center;
+    }
+
+    .social_sites>ul {
+        /* background-color: rgb(6, 26, 26); */
+        padding: 0 150px;
+        justify-content: center;
+    }
+
+    .web_links>ul {
+        /* background-color: rgb(18, 40, 40); */
+        padding: 0 120px;
+        justify-content: center;
+        row-gap: 13px;
+        column-gap: 15px;
+    }
+
+    .footer_container>p {
+        /* background-color: rgb(4, 14, 14); */
+        margin-bottom: 30px;
+        padding: 0 150px;
+        text-align: center;
+    }
 
 
 }

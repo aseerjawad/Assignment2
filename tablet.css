@@ -12,7 +12,11 @@
     }
 
     .banner {
-        padding: 0 100px;
+        padding: 0px;
+    }
+
+    .banner_left {
+        padding: 150px 80px 150px 100px;
     }
 
     .banner_right {
@@ -31,6 +35,16 @@
 
 
     /* ________________________About section________________________ */
+    .about_section {
+        padding: 0px 85px;
+    }
+
+    .about_section_left>img {
+        width: 150%;
+        height: 90%;
+    }
+
+
 
 
     .online_games_sec {
@@ -49,6 +63,59 @@
 
 
     /* _________________________Description section____________________________ */
+
+    .description_sec {
+        padding: 0;
+    }
+
+
+
+    .upper_sec {
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* background-color: bisque; */
+    }
+
+    .upper_right {
+        margin-right: 40px;
+    }
+
+    .rectangle_sixtysix {
+        top: 220px;
+        right: 220px;
+    }
+
+    .upper_left,
+    .bottom_right {
+        margin: auto 150px;
+
+    }
+
+
+    .rectangle_fiftyfive,
+    .rectangle_sixtyseven {
+        width: 315px;
+        height: 344px;
+    }
+
+
+
+
+    .bottom_sec {
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* background-color: bisque; */
+    }
+
+    .bottom_left {
+        margin-left: 40px;
+    }
+
+    .rectangle_seventy {
+
+        left: 220px;
+        top: 220px;
+    }
 
 
 }
