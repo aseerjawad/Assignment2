@@ -29,4 +29,25 @@
         width: 180%;
     }
 
+
+
+
+
+    .online_games_sec {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .online_games_sec>section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* background-color: blue; */
+    }
+
+
+
+
+
 }
