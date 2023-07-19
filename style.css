@@ -111,3 +111,39 @@
     color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     /* background-clip: text; */
 }
+
+button {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: 0;
+    color: white;
+}
+
+/* ----------------------------------About_section--------------------------------------- */
+
+.about_section {
+    max-width: 1920px;
+    min-height: 400px;
+    border: 2px solid black;
+    padding: 20px 220px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.about_section_left {
+    /* background-color: #58f167; */
+}
+
+
+.about_section_left>img {
+    width: 100%;
+    height: 80%;
+
+}
+
+.about_section_right {
+    background-color: #8758F1;
+    padding-bottom: 50px;
+    text-align: right;
+}
