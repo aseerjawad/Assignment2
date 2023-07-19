@@ -61,7 +61,7 @@
 
 
 
-
+    /* ________________________About section________________________ */
 
 
 
@@ -100,5 +100,121 @@
         /* background-color: #8758F1; */
         margin-top: 30px;
     }
+
+
+
+
+
+    /* _________________________Description section____________________________ */
+
+
+
+    .description_sec {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .upper_sec {
+        flex-direction: column;
+        /* background-color: aquamarine; */
+    }
+
+
+    .upper_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 70px;
+        margin-top: 50px;
+        padding: 0 40px;
+        /* background-color: aqua; */
+    }
+
+
+    .upper_left>p {
+        /* margin: 30px 0; */
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .upper_left>h2 {
+        text-align: center;
+    }
+
+    .rectangle_sixtysix {
+        right: 250px;
+        top: 200px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .rectangle_fiftyfive {
+        width: 300px;
+        height: 300px;
+    }
+
+    .upper_right {
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        margin: 0 70px;
+    }
+
+
+
+
+
+
+    .bottom_sec {
+        flex-direction: column-reverse;
+        /* background-color: blue; */
+        margin-bottom: 200px;
+        margin-top: 150px;
+    }
+
+    .bottom_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 70px;
+        margin-top: 0px;
+        padding: 0 40px;
+        /* background-color: aqua; */
+    }
+
+    .bottom_right>p {
+        /* margin: 30px 0; */
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .bottom_right>h2 {
+        text-align: center;
+    }
+
+
+    .rectangle_sixtyseven {
+        width: 300px;
+        height: 300px;
+    }
+
+    .bottom_left {
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        margin: 0 70px;
+        position: relative;
+    }
+
+    .rectangle_seventy {
+        left: 250px;
+        top: 200px;
+        height: 150px;
+        width: 150px;
+    }
+
+
 
 }
