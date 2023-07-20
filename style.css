@@ -476,6 +476,17 @@ button {
     margin-bottom: 30px;
 }
 
+.social_sites i {
+    font-size: 25px;
+}
+
+.social_sites>ul>li>i:hover {
+    font-size: 35px;
+
+    cursor: pointer;
+}
+
+
 .web_links>ul {
     display: flex;
     flex-wrap: wrap;
@@ -489,9 +500,7 @@ button {
 
 }
 
-.social_sites i {
-    font-size: 25px;
-}
+
 
 .footer_container a {
     text-decoration: none;
@@ -499,17 +508,7 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* ---------------------Hover_effect-------------------- */
+/* ______________________________Hover_effect___________________________ */
 
 .img_container {
     position: relative;
