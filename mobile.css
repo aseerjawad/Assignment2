@@ -5,6 +5,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* *!___________________________Designed for a width of 570px of mobile device_________________________ */
 @media screen and (max-width:576px) {
     .nav_container {
         flex-direction: column;
@@ -59,9 +60,10 @@
     }
 
 
+    /* ____________________________________About section____________________________________ */
 
 
-    /* ________________________About section________________________ */
+
 
 
 
@@ -134,9 +136,9 @@
 
 
 
-    /* _________________________Description section____________________________ */
 
 
+    /* ____________________________________Description section____________________________________ */
 
     .description_sec {
         margin: 0;
@@ -146,6 +148,7 @@
 
     .upper_sec {
         flex-direction: column;
+        position: relative;
         /* background-color: aquamarine; */
     }
 
@@ -234,24 +237,28 @@
         display: flex;
         justify-content: center;
         margin: 0 70px;
-        position: relative;
+        /* position: relative; */
     }
 
     .rectangle_seventy {
+
+        /* position: static; */
         left: 250px;
-        top: 200px;
+
+        top: 220px;
         height: 150px;
         width: 150px;
+
     }
 
-    /* _________________Genre Sec________________ */
+    /* ____________________________________Genre____________________________________ */
 
     .genre_section {
         padding: 40px 0px;
         font-size: 10px;
     }
 
-    /* ____________________career________________ */
+    /* ____________________________________career____________________________________ */
 
 
     .career_section {
@@ -264,25 +271,9 @@
     }
 
 
+    /* ____________________________________footer____________________________________ */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* __________________footer____________________ */
     .footer_container>.logo_section {
         margin: 0px;
     }
@@ -317,16 +308,29 @@
     }
 
 
+
+    /* --------------Hover effect---------------- */
     .overlay {
-
         top: 8%;
-        left: 0;
-
-        width: 100%;
         height: 80%;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .rectangle_seventy {
+        /* position: static; */
+        left: 0px;
+        top: 220px;
+    }
+
+    .rectangle_sixtysix {
+        right: 0px;
+        top: 200px;
 
     }
 
-
-
+    .career_describe {
+        padding: 0;
+    }
 }
